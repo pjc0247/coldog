@@ -10,6 +10,8 @@ __You can__
 
 __even your PC is offline__
 
+
+
 Usage
 ----
 __Create a new wallet__
@@ -20,4 +22,10 @@ coldog create -o wallet.json
 __Transfer coins__
 ```
 coldog transfer -i wallet.json -o tx.json -r RECEIVER_ADDRESS -v 1000
+```
+
+
+__Broadcast (Must be online)__
+```
+coldog broadcast tx.json
 ```
