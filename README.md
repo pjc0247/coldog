@@ -8,6 +8,7 @@ __You can__
 * Deploy a contract
 * Execute a contract method
 
+__even your PC is offline__
 
 Usage
 ----
