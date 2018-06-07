@@ -1,6 +1,6 @@
 coldog
 ====
-Offline wallet solution for mchain.<br>
+Offline wallet solution for [mchain](https://github.com/pjc0247/mchain).<br>
 
 __You can__
 * Create a new wallet
