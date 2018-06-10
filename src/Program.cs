@@ -46,10 +46,11 @@ namespace coldog
         {
             node = new EndpointNode();
 
-            return Parser.Default.ParseArguments<CreateWalletOptions, TransferOptions>(args)
+            return Parser.Default.ParseArguments<CreateWalletOptions, TransferOptions, BroadcastOptions>(args)
                 .MapResult(
                 (CreateWalletOptions x) => CreateWallet(x),
                 (TransferOptions x) => Transfer(x),
+                (BroadcastOptions x) => Broadcast(x),
                 errs => 1);
         }
 
