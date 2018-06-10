@@ -27,5 +27,5 @@ coldog transfer -i wallet.json -o tx.json -r RECEIVER_ADDRESS -v 1000
 
 __Broadcast (Must be online)__
 ```
-coldog broadcast tx.json
+coldog broadcast -i tx.json
 ```
